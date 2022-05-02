@@ -12,6 +12,11 @@ Esta prueba esta elaborada con angular para el frontend y node para el backend
   - models
   - db
 
+### INSTALLAR DEPENDENCIAS EN LA CARPETA FRONTEND Y BACKEND
+```sh
+`npm install` 
+```    
+
 ### EJECUTAR APP:
 ```sh
 FRONTEND -> Run `ionic serve` for a dev server. Navigate to `http://localhost:8100/`. 
