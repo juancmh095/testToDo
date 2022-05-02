@@ -1,0 +1,26 @@
+ion-card{
+    --background: url('../../../assets/paper.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+
+    ion-card-header{        
+        padding-left: 20%;
+        padding-top: 25%;
+        ion-card-subtitle{
+            font-size: 7px;
+        }
+        ion-card-title{
+            font-size: 22px;
+        }
+    }
+    ion-card-content{
+        padding: 16%;
+        padding-top: 0;
+    }
+}
+
+.st{
+    font-size: 10px;
+}

@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Detalles</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>
+        Ultima vez modificado: {{last_update | date:'short'}}
+      </ion-card-subtitle>
+      <ion-card-title>
+        {{title}}
+        <ion-badge *ngIf="status" color="success">Completada</ion-badge>
+        <ion-badge *ngIf="!status" color="warning">Pendiente</ion-badge>
+      </ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <p class="st">Creada: {{create_at | date:'short'}}</p>
+      <p class="st">Finaliza el: {{finish | date:'short'}}</p>
+      <p>{{note}}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-button class="btn-m" expand="block" color="dark" fill="outline" (click)="dismiss()"> Cancelar</ion-button>
+
+
+</ion-content>

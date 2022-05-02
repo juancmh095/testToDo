@@ -1,0 +1,43 @@
+ion-content{
+  --background: #338b86  !important;
+  color: white;
+}
+
+ion-toolbar{
+  --background: #338b86  !important;
+  color: white;
+}
+
+.m-1{
+  margin: 20px;
+}
+
+.bg-none{
+  background: none;
+
+}
+
+.btn-m{
+  margin-left: 20px;
+  margin-right: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 90%;
+}
+
+ion-list{
+  --background:none !important;
+}
+
+ion-item{
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+ion-item-options{
+  padding-bottom: 10px;
+
+  ion-item-option{
+    border-radius: 10px;
+  }
+}
